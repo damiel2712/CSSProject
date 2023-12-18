@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    text-align:center;
+    font-family: Cursive;
+}
+
+.first{
+    margin-top: 0%;
+    background-color: aquamarine;
+    font-family: Sofia;
+}
+#Bird1{
+    margin-left: auto;
+    margin-right:15%;
+    display: block;
+    width: 20%;
+    height: 20%;
+}
+#Bird2{
+    display: block;
+    margin-left: 15%;
+    margin-right:auto;
+    transform: scaleX(-1);
+    position:sticky;
+    
+    width: 20%;
+    height: 20%;
+    
+}
+p {
+    font-family: Cursive;
+    font-size: 200%;
+  }
+
+#SubTitle{
+    font-style: italic;
+    color:lightslategray;
+}
+footer{
+    display: block;
+    background-color: aquamarine;
+    height: 100px;
+}
+#Contact{
+    background-color:aquamarine;
+    color: rgb(162, 162, 162);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+}
+#Contact:hover{
+  margin-top: 2cm;
+}
+
+@media screen and (max-width: 700px) {
+    .first {background-color: aqua;}
+    footer {background-color: aqua;}
+    #Contact {background-color: aqua;}
+    .grid-img {grid-column-start: 1; grid-column-end: 3;text-align: center;  }
+    .grid-text {grid-column-start: 1; grid-column-end: 3; text-align: center;}
+    .Circle{
+      width: 40%;
+      height: 70%;
+      border-radius: 50%;
+  }
+    
+}
+
+#gif{
+    
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    
+}
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+
+  }
+  
+  @media screen and (min-width: 700px){
+    .grid-img {
+      text-align: right;  
+    }
+    .grid-text {
+      text-align: left;
+      font-size: 150%;    
+    }
+    .Circle{
+      width: 70%;
+      height: 70%;
+      border-radius: 50%;
+  }
+  }
+  
+  h2{
+    color: blue;
+    font-size: 200%;
+  }
+  #grid-head{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  a{
+    color: rgb(161, 148, 148);
+    text-decoration: none;
+  }
+  hr {
+    border: dotted #829191 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    }
+  
+  
